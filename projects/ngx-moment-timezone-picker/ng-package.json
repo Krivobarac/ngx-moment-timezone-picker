@@ -1,0 +1,14 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ngx-moment-timezone-picker",
+  "lib": {
+    "entryFile": "src/public-api.ts"
+  },
+  "assets": [
+    "assets/*"
+  ],
+  "allowedNonPeerDependencies": [
+    "@ng-select/ng-select",
+    "moment-timezone"
+  ]
+}

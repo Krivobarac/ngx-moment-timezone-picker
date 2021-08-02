@@ -11,6 +11,12 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "ngx-moment-timezone-picker": [
+        "dist/ngx-moment-timezone-picker/ngx-moment-timezone-picker",
+        "dist/ngx-moment-timezone-picker"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
